@@ -1,0 +1,5035 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Thu May 11 17:07:53 2023
+| Host         : ZEPHYRUS running 64-bit major release  (build 9200)
+| Command      : report_methodology -file MAIN_methodology_drc_routed.rpt -pb MAIN_methodology_drc_routed.pb -rpx MAIN_methodology_drc_routed.rpx
+| Design       : MAIN
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1000
++-----------+------------------+-----------------------------+------------+
+| Rule      | Severity         | Description                 | Violations |
++-----------+------------------+-----------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell | 1000       |
++-----------+------------------+-----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin C1/clk_aux_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HPOS_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/HSYNC_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_10/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_11/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_2/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_3/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_4/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_5/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_6/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_7/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_8/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/R[0]_lopt_replica_9/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_X_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/SQ_Y_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VPOS_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/VSYNC_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[0]_rep/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[0]_rep__0/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[0]_rep__1/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_x_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/index_y_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][106]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][107]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][108]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][109]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][110]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][111]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][112]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][113]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][114]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][115]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][116]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][117]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][118]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][119]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][120]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][121]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][122]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][123]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][486]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][487]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][488]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][489]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][490]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][491]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][492]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][493]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][494]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][495]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][496]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][497]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][498]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][499]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][500]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][501]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][502]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][503]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][504]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][618]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][619]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][620]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][621]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][622]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][623]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][624]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][625]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][626]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][627]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][628]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][629]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][630]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][631]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][632]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][633]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][634]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][635]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][636]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][776]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][777]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][778]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][779]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][780]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][781]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][782]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][783]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][784]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][785]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][786]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][787]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][788]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][789]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][790]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][791]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][792]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][793]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][794]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][795]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][796]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][797]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][798]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][799]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][800]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[108][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][106]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][107]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][108]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][109]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][110]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][111]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][112]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][113]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][114]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][115]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][116]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][117]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][118]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][119]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][120]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][121]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][122]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][123]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][124]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][125]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][126]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][127]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][128]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][129]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][130]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][131]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][132]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][133]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][134]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][135]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][136]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#213 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][137]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#214 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][138]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#215 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][139]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#216 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#217 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][140]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#218 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][141]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#219 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][142]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#220 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][143]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#221 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][144]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#222 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][145]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#223 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][146]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#224 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][147]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#225 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][148]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#226 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][149]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#227 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#228 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][150]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#229 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][151]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#230 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][152]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#231 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][153]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#232 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][154]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#233 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][155]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#234 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][156]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#235 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][157]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#236 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][158]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#237 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][159]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#238 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#239 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][160]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#240 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][161]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#241 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][162]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#242 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][163]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#243 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][164]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#244 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][165]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#245 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][166]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#246 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][167]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#247 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][168]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#248 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][169]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#249 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#250 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][170]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#251 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][171]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#252 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][172]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#253 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][173]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#254 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][174]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#255 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][175]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#256 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][176]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#257 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][177]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#258 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][178]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#259 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][179]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#260 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#261 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][180]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#262 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][181]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#263 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][182]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#264 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][183]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#265 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][184]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#266 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][185]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#267 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][186]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#268 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][187]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#269 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][188]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#270 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][189]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#271 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][190]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#272 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][191]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#273 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][192]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#274 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][193]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#275 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][194]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#276 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][195]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#277 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][196]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#278 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][197]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#279 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][198]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#280 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][199]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#281 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#282 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][200]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#283 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][201]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#284 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][202]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#285 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][203]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#286 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][204]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#287 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][205]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#288 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][206]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#289 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][207]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#290 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][208]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#291 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][209]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#292 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][210]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#293 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][211]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#294 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][212]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#295 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][213]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#296 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][214]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#297 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][215]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#298 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][216]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#299 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][217]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#300 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][218]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#301 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][219]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#302 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][220]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#303 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][221]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#304 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][222]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#305 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][223]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#306 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][224]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#307 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][225]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#308 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][226]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#309 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][227]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#310 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][228]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#311 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][229]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#312 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][230]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#313 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][231]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#314 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][232]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#315 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][233]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#316 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][234]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#317 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][235]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#318 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][236]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#319 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][237]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#320 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][238]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#321 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][239]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#322 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][240]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#323 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][241]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#324 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][242]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#325 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][243]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#326 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][244]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#327 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][245]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#328 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][246]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#329 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][247]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#330 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][248]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#331 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][249]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#332 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][250]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#333 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][251]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#334 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][252]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#335 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][253]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#336 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][254]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#337 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][255]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#338 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][256]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#339 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][257]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#340 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][258]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#341 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][259]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#342 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][260]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#343 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][261]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#344 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][262]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#345 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][263]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#346 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][264]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#347 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][265]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#348 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][266]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#349 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][267]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#350 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][268]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#351 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][269]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#352 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][270]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#353 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][271]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#354 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][272]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#355 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][273]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#356 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][274]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#357 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][275]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#358 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][276]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#359 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][277]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#360 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][278]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#361 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][279]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#362 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][280]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#363 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][281]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#364 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][282]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#365 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][283]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#366 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][284]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#367 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][285]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#368 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][286]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#369 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][287]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#370 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][288]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#371 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][289]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#372 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][290]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#373 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][291]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#374 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][292]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#375 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][293]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#376 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][294]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#377 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][295]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#378 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][296]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#379 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][297]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#380 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][298]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#381 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][299]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#382 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#383 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][300]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#384 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][301]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#385 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][302]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#386 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][303]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#387 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][304]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#388 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][305]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#389 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][306]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#390 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][307]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#391 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][308]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#392 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][309]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#393 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][310]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#394 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][311]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#395 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][312]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#396 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][313]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#397 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][314]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#398 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][315]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#399 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][316]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#400 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][317]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#401 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][318]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#402 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][319]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#403 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][320]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#404 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][321]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#405 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][322]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#406 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][323]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#407 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][324]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#408 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][325]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#409 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][326]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#410 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][327]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#411 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][328]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#412 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][329]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#413 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][330]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#414 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][331]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#415 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][332]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#416 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][333]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#417 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][334]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#418 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][335]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#419 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][336]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#420 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][337]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#421 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][338]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#422 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][339]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#423 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][340]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#424 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][341]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#425 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][342]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#426 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][343]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#427 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][344]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#428 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][345]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#429 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][346]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#430 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][347]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#431 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][348]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#432 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][349]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#433 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][350]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#434 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][351]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#435 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][352]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#436 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][353]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#437 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][354]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#438 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][355]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#439 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][356]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#440 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][357]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#441 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][358]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#442 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][359]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#443 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][360]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#444 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][361]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#445 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][362]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#446 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][363]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#447 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][364]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#448 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#449 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][486]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#450 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][487]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#451 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][488]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#452 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][489]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#453 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][490]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#454 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][491]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#455 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][492]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#456 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][493]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#457 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][494]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#458 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][495]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#459 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][496]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#460 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][497]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#461 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][498]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#462 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][499]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#463 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#464 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][500]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#465 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][501]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#466 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][502]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#467 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][503]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#468 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][504]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#469 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#470 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][618]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#471 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][619]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#472 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][620]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#473 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][621]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#474 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][622]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#475 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][623]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#476 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][624]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#477 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][625]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#478 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][626]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#479 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][627]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#480 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][628]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#481 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][629]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#482 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][630]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#483 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][631]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#484 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][632]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#485 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][633]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#486 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][634]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#487 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][635]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#488 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][636]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#489 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#490 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][776]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#491 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][777]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#492 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][778]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#493 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][779]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#494 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][780]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#495 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][781]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#496 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][782]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#497 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][783]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#498 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][784]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#499 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][785]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#500 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][786]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#501 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][787]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#502 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][788]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#503 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][789]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#504 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][790]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#505 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][791]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#506 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][792]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#507 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][793]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#508 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][794]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#509 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][795]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#510 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][796]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#511 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][797]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#512 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][798]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#513 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][799]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#514 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#515 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][800]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#516 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#517 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[132][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#518 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][106]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#519 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][107]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#520 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][108]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#521 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][109]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#522 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#523 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][110]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#524 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][111]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#525 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][112]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#526 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][113]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#527 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][114]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#528 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][115]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#529 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][116]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#530 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][117]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#531 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][118]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#532 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][119]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#533 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#534 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][120]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#535 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][121]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#536 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][122]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#537 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][123]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#538 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][124]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#539 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][125]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#540 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][126]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#541 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][127]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#542 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][128]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#543 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][129]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#544 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#545 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][130]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#546 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][131]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#547 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][132]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#548 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][133]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#549 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][134]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#550 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][135]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#551 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][136]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#552 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][137]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#553 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][138]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#554 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][139]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#555 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#556 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][140]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#557 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][141]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#558 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][142]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#559 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][143]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#560 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][144]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#561 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][145]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#562 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][146]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#563 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][147]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#564 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][148]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#565 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][149]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#566 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#567 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][150]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#568 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][151]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#569 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][152]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#570 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][153]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#571 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][154]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#572 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][155]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#573 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][156]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#574 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][157]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#575 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][158]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#576 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][159]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#577 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#578 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][160]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#579 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][161]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#580 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][162]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#581 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][163]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#582 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][164]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#583 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][165]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#584 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][166]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#585 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][167]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#586 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][168]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#587 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][169]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#588 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#589 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][170]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#590 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][171]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#591 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][172]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#592 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][173]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#593 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][174]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#594 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][175]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#595 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][176]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#596 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][177]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#597 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][178]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#598 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][179]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#599 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#600 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][180]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#601 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][181]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#602 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][182]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#603 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][183]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#604 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][184]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#605 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][185]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#606 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][186]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#607 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][187]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#608 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][188]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#609 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][189]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#610 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][190]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#611 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][191]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#612 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][192]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#613 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][193]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#614 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][194]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#615 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][195]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#616 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][196]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#617 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][197]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#618 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][198]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#619 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][199]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#620 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#621 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][200]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#622 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][201]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#623 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][202]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#624 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][203]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#625 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][204]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#626 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][205]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#627 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][206]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#628 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][207]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#629 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][208]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#630 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][209]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#631 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][210]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#632 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][211]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#633 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][212]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#634 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][213]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#635 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][214]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#636 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][215]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#637 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][216]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#638 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][217]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#639 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][218]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#640 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][219]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#641 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][220]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#642 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][221]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#643 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][222]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#644 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][223]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#645 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][224]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#646 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][225]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#647 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][226]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#648 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][227]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#649 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][228]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#650 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][229]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#651 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][230]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#652 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][231]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#653 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][232]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#654 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][233]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#655 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][234]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#656 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][235]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#657 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][236]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#658 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][237]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#659 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][238]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#660 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][239]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#661 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][240]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#662 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][241]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#663 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][242]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#664 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][243]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#665 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][244]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#666 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][245]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#667 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][246]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#668 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][247]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#669 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][248]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#670 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][249]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#671 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][250]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#672 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][251]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#673 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][252]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#674 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][253]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#675 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][254]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#676 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][255]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#677 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][256]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#678 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][257]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#679 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][258]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#680 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][259]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#681 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][260]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#682 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][261]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#683 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][262]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#684 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][263]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#685 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][264]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#686 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][265]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#687 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][266]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#688 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][267]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#689 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][268]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#690 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][269]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#691 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][270]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#692 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][271]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#693 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][272]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#694 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][273]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#695 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][274]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#696 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][275]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#697 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][276]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#698 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][277]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#699 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][278]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#700 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][279]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#701 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][280]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#702 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][281]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#703 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][282]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#704 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][283]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#705 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][284]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#706 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][285]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#707 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][286]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#708 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][287]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#709 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][288]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#710 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][289]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#711 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][290]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#712 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][291]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#713 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][292]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#714 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][293]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#715 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][294]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#716 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][295]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#717 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][296]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#718 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][297]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#719 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][298]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#720 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][299]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#721 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#722 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][300]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#723 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][301]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#724 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][302]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#725 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][303]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#726 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][304]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#727 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][305]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#728 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][306]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#729 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][307]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#730 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][308]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#731 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][309]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#732 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][310]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#733 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][311]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#734 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][312]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#735 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][313]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#736 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][314]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#737 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][315]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#738 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][316]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#739 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][317]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#740 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][318]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#741 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][319]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#742 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][320]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#743 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][321]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#744 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][322]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#745 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][323]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#746 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][324]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#747 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][325]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#748 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][326]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#749 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][327]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#750 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][328]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#751 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][329]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#752 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][330]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#753 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][331]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#754 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][332]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#755 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][333]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#756 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][334]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#757 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][335]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#758 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][336]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#759 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][337]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#760 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][338]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#761 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][339]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#762 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][340]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#763 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][341]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#764 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][342]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#765 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][343]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#766 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][344]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#767 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][345]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#768 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][346]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#769 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][347]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#770 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][348]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#771 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][349]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#772 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][350]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#773 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][351]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#774 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][352]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#775 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][353]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#776 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][354]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#777 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][355]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#778 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][356]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#779 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][357]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#780 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][358]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#781 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][359]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#782 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][360]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#783 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][361]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#784 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][362]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#785 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][363]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#786 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][364]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#787 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#788 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][486]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#789 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][487]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#790 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][488]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#791 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][489]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#792 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][490]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#793 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][491]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#794 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][492]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#795 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][493]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#796 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][494]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#797 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][495]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#798 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][496]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#799 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][497]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#800 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][498]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#801 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][499]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#802 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#803 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][500]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#804 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][501]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#805 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][502]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#806 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][503]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#807 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][504]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#808 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][584]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#809 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][585]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#810 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][586]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#811 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][587]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#812 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][588]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#813 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][589]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#814 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][590]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#815 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][591]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#816 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][592]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#817 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][593]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#818 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][594]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#819 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][595]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#820 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][596]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#821 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][597]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#822 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][598]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#823 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][599]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#824 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#825 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][600]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#826 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][601]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#827 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][602]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#828 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][603]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#829 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][604]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#830 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][605]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#831 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][606]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#832 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][607]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#833 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][608]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#834 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][609]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#835 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][610]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#836 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][611]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#837 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][612]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#838 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][613]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#839 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][614]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#840 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][615]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#841 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][616]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#842 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][617]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#843 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][618]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#844 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][619]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#845 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][620]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#846 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][621]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#847 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][622]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#848 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][623]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#849 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][624]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#850 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][625]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#851 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][626]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#852 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][627]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#853 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][628]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#854 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][629]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#855 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][630]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#856 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][631]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#857 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][632]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#858 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][633]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#859 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][634]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#860 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][635]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#861 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][636]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#862 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][637]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#863 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][638]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#864 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][639]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#865 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][640]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#866 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][641]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#867 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][642]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#868 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][643]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#869 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][644]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#870 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][645]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#871 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][646]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#872 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][647]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#873 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][648]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#874 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][649]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#875 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][650]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#876 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][651]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#877 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][652]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#878 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][653]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#879 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][654]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#880 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][655]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#881 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][656]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#882 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][657]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#883 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][658]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#884 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][659]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#885 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][660]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#886 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][661]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#887 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][662]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#888 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][663]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#889 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][664]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#890 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][665]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#891 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][666]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#892 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][667]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#893 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][668]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#894 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][669]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#895 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][670]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#896 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][671]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#897 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][672]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#898 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][673]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#899 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][674]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#900 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][675]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#901 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][676]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#902 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][677]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#903 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][678]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#904 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][679]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#905 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][680]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#906 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][681]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#907 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][682]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#908 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][683]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#909 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][684]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#910 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][685]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#911 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][686]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#912 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][687]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#913 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][688]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#914 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][689]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#915 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][690]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#916 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][691]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#917 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][692]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#918 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][693]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#919 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][694]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#920 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][695]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#921 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][696]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#922 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][697]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#923 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][698]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#924 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][699]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#925 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#926 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][700]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#927 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][701]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#928 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][702]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#929 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][703]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#930 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][704]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#931 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][705]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#932 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][706]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#933 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][707]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#934 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][708]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#935 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][709]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#936 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][710]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#937 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][776]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#938 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][777]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#939 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][778]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#940 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][779]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#941 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][780]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#942 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][781]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#943 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][782]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#944 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][783]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#945 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][784]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#946 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][785]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#947 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][786]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#948 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][787]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#949 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][788]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#950 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][789]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#951 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][790]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#952 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][791]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#953 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][792]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#954 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][793]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#955 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][794]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#956 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][795]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#957 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][796]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#958 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][797]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#959 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][798]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#960 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][799]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#961 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#962 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][800]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#963 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#964 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[137][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#965 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][106]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#966 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][107]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#967 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][108]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#968 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][109]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#969 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#970 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][110]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#971 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][111]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#972 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][112]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#973 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][113]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#974 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][114]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#975 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][115]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#976 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][116]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#977 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][117]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#978 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][118]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#979 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][119]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#980 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#981 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][120]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#982 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][121]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#983 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][122]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#984 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][123]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#985 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][124]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#986 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][125]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#987 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][126]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#988 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][127]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#989 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][128]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#990 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][129]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#991 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#992 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][130]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#993 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][131]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#994 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][132]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#995 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][133]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#996 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][134]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#997 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][135]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#998 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][136]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#999 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][137]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#1000 Critical Warning
+Non-clocked sequential cell  
+The clock pin C2/maze_reg[147][138]/C is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun May  7 16:37:06 2023
+# Process ID: 10236
+# Current directory: C:/Users/Paul/Desktop/project_1/project_1.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15228 C:\Users\Paul\Desktop\project_1\project_1.srcs\utils_1\imports\synth_1\VGA_MAIN.dcp
+# Log file: C:/Users/Paul/Desktop/project_1/project_1.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: C:/Users/Paul/Desktop/project_1/project_1.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On: DESKTOP-J1NUDUG, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 17024 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/Paul/Desktop/project_1/project_1.srcs/utils_1/imports/synth_1/VGA_MAIN.dcp

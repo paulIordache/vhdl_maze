@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Paul/Desktop/project_1/project_1.srcs/sources_1/new/procedure_create_maze.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Paul/Desktop/project_1/project_1.srcs/sources_1/new/procedure.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Paul/Desktop/project_1/project_1.srcs/sources_1/new/SYNC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SQUARE'
